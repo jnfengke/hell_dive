@@ -7,7 +7,8 @@
         compatible = "zmk,keymap";
 
         default_layer {
-            bindings = < &kp UP &kp LEFT &kp DOWN &kp RIGHT >;
+            bindings = < &kp UP &kp UP &kp UP 
+                         &kp LEFT &kp DOWN &kp RIGHT >;
         }; 
 
     };
